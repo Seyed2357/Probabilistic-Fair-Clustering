@@ -59,4 +59,4 @@ First key is the attribute (ie. sex), and second key is the color within that at
 * `cluster_time` : Float that is the time taken for the vanilla clustering to occur. 0 if `violating` is true.
 
 ## Refernces 
-This code is based on for "faor algorithms for clustering":  https://github.com/nicolasjulioflores/fair_algorithms_for_clustering
+This code is based on the code for "Fair Algorithms for Clustering":  https://github.com/nicolasjulioflores/fair_algorithms_for_clustering
