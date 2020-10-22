@@ -1,5 +1,6 @@
 # README
 
+
 ## Requirements
 
 `Python3.6` is expected for this program because currently the CPLEX solver being used expects that version of Python.
@@ -19,6 +20,8 @@ Further the following examples, will vary a parameter: number of clusters for th
 * `example_vary_cluster_2_color.py`: 2 color probabilistic case for the bank data set, varying the number of clusters. 
 * `example_vary_cluster_metric_membership.py`: metric membership case for the adult data set, varying the number of clusters.
 * `example_vary_lower_bound.py`: multi-color large cluster over the census1990 data set, varying the lower bound on the cluster size.  
+
+* Note: ML predictions only exist for the census1990 data set
 
 ## Running your Own Tests
 
@@ -55,4 +58,5 @@ First key is the attribute (ie. sex), and second key is the color within that at
 * `time` : Float that is the time taken for the LP to be solved.
 * `cluster_time` : Float that is the time taken for the vanilla clustering to occur. 0 if `violating` is true.
 
-## Note: ML predictions only exist for the census1990 data set
+## Refernces 
+This code is based on for "faor algorithms for clustering":  https://github.com/nicolasjulioflores/fair_algorithms_for_clustering
